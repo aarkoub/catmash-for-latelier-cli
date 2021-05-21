@@ -26,9 +26,9 @@ class Match  extends Component {
     super();
     this.state = { match:
                         {user: {id: null},
-                         cat1: {id: null, pictureUrl: null, nbVotes: null},
-                         cat2: {id: null, pictureUrl: null, nbVotes: null},
-                         catVoted: {id: null, pictureUrl: null, nbVotes: null}},
+                         cat1: {id: 0, pictureUrl: null, nbVotes: null},
+                         cat2: {id: 0, pictureUrl: null, nbVotes: null},
+                         catVoted: {id: 0, pictureUrl: null, nbVotes: null}},
                  error: null,
                  isLoaded: false };
 
