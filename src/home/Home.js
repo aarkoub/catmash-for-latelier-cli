@@ -25,7 +25,7 @@ class Home extends Component {
     }
     else{
         if(process.env.NODE_ENV === 'production'){
-              this.api_host = process.env.REACT_APP_API_HOST_DEV;
+              this.api_host = process.env.REACT_APP_API_HOST_PROD;
         }else{
               this.api_host = process.env.REACT_APP_API_HOST_TEST;
         }
